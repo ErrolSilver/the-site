@@ -1,0 +1,30 @@
+// grid-settings.scss
+
+$column: 80px;
+$gutter: 30px;
+$grid-columns: 12;
+$max-width: 1290px;
+$mobile-gutter: 10px;
+
+// Global Breakpoint Variables.
+// Use in media queries across components.
+// One-off breakpoints should be defined at the component-level.
+// Units are in ems for maximum compatibility and accessibility,
+// See: https://zellwk.com/blog/media-query-units/
+
+$bp-max-large: $max-width;
+$bp-min-large: 769px;
+$bp-max-medium: 768px;
+$bp-min-medium: 471px;
+$bp-max-small:  470px;
+$bp-min-small: 320px;
+
+
+// Grid-aware breakpoints for working with Neat
+// http://thoughtbot.github.io/neat-docs/latest/#new-breakpoint
+$bp-g-max-large: new-breakpoint(max-width $bp-max-large 12);
+$bp-g-min-large: new-breakpoint(min-width ($bp-min-large) 12);
+$bp-g-max-medium: new-breakpoint(max-width $bp-max-medium 8);
+$bp-g-min-medium: new-breakpoint(min-width ($bp-min-medium) 8);
+$bp-g-max-small: new-breakpoint(max-width $bp-max-small 4);
+$bp-g-min-small: new-breakpoint(min-width ($bp-min-small) 4);

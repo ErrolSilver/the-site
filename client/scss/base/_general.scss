@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $black;
+  font-size: 18px;
+  font-family: $sans-serif;
+  min-height: 100vh;
+}
+
+h1,
+.h1 {
+  font-size: 63px;
+  font-family: $sans-serif;
+  font-weight: lighter;
+}
+
+h2,
+.h2 {
+
+}
+
+h3,
+.h3 {
+
+}
+
+h4,
+.h4 {
+
+}
+
+h5,
+.h5 {
+
+}
+
+h6,
+.h6 {
+
+}
+
+p {
+  line-height: 1.4;
+}
+
+// flexible media
+object,
+video,
+img {
+  display: block;
+  max-width: 100%;
+}
+
+// lists
+ol,
+ul {
+  padding: 0;
+  margin-top: 0;
+  margin-left: 60px;
+  margin-bottom: 30px;
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+// nested lists
+ul ul,
+ol ul,
+ol ol,
+ul ol {
+  margin-top: 10px;
+}
+
+// definition lists
+dl {
+  padding: 0;
+  margin-top: 0;
+  margin-left: 60px;
+  margin-bottom: 30px;
+
+  dd, dt {
+    margin-bottom: 10px;
+  }
+}
+
+// links
+a {
+
+  &:hover {
+  }
+}
+
+// hr
+hr {
+  border-bottom: 1px solid currentColor;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: -1px 0 0;
+  box-sizing: content-box;
+}
+
+figure {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid currentColor;
+  padding: 10px;
+  font-size: 16px;
+}

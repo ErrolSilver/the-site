@@ -1,0 +1,26 @@
+.button {
+  background: $silver;
+  border-bottom-color: $gray;
+  border-right-color: $gray;
+  border-style: solid;
+  border-width: 1px;
+  color: $black;
+  min-width: 115px;
+  outline: $black solid 1px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 4px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: $black solid 2px; 
+  }
+
+  &:first-letter {
+    border-bottom: 1px sold currentColor;
+  }
+}
